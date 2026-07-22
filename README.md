@@ -2,6 +2,106 @@
 Building a modern data warehouse with SQL Server, including ETL processes, data modelling, and  analytics.
 Welcome to the **Data Warehouse and Analytics project** repository!
 This project demonstrates a comprehensive data warehousing and analytical solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights engineering best practices in data engineering and analytics.
+Here is the transcribed text from the image:
+
+---
+
+## 📖 Project Overview
+
+This project involves:
+
+1. **Data Architecture:** Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
+2. **ETL Pipelines:** Extracting, transforming, and loading data from source systems into the warehouse.
+3. **Data Modeling:** Developing fact and dimension tables optimized for analytical queries.
+4. **Analytics & Reporting:** Creating SQL-based reports and dashboards for actionable insights.
+
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+
+* SQL Development
+* Data Architect
+* Data Engineering
+* ETL Pipeline Developer
+* Data Modeling
+* Data Analytics
+Here is the exact text transcribed as it appears in the image, formatted cleanly in standard Markdown for GitHub:
+
+---
+
+## 🏗️ Data Architecture
+
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+
+### Sources
+
+* CRM
+* ERP
+
+**Object Type:** CSV Files
+
+**Interface:** Files in Folders
+
+---
+
+### Data Warehouse
+
+#### Bronze Layer
+
+* Raw Data
+* **Object Type:** Tables
+* **Load:**
+* Batch Processing
+* Full Load
+* Truncate & Insert
+
+
+* **No Transformations**
+* **Data Model:** None (as-is)
+
+#### Silver Layer
+
+* Cleaned, Standardized Data
+* **Object Type:** Tables
+* **Load:**
+* Batch Processing
+* Full Load
+* Truncate & Insert
+
+
+* **Transformations:**
+* Data Cleansing
+* Data Standardization
+* Data Normalization
+* Derived Columns
+* Data Enrichment
+
+
+* **Data Model:** None (as-is)
+
+#### Gold Layer
+
+* Business-Ready Data
+* **Object Type:** Views
+* **No Load**
+* **Transformations:**
+* Data Integrations
+* Aggregations
+* Business Logics
+
+
+* **Data Model:**
+* Star Schema
+* Flat Table
+* Aggregated Table
+
+
+
+---
+
+### Consume
+
+* BI & Reporting
+* Ad-Hoc SQL Queries
+* Machine Learning
 
 ## Project Requirements
 
